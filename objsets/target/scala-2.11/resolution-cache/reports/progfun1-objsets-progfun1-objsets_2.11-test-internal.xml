@@ -1,0 +1,565 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="ivy-report.xsl"?>
+<ivy-report version="1.0">
+	<info
+		organisation="progfun1-objsets"
+		module="progfun1-objsets_2.11"
+		revision="0.1-SNAPSHOT"
+		conf="test-internal"
+		confs="compile, runtime, test, provided, optional, compile-internal, runtime-internal, test-internal, plugin, sources, docs, pom, scala-tool"
+		date="20180508094111"/>
+	<dependencies>
+		<module organisation="org.scala-lang" name="scala-compiler">
+			<revision name="2.11.12" status="release" pubdate="20171103013744" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="27">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="3262" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-compiler/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.12/scala-compiler-2.11.12.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="scala-compiler" type="jar" ext="jar" status="no" details="" size="15612191" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-compiler/jars/scala-compiler-2.11.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-compiler/2.11.12/scala-compiler-2.11.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-xml_2.11">
+			<revision name="1.0.5" status="release" pubdate="20150724191224" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="28">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.pom"/>
+				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.4"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.5" rev-constraint-default="1.0.5" rev-constraint-dynamic="1.0.5" callerrev="2.11.12"/>
+				<artifacts>
+					<artifact name="scala-xml_2.11" type="bundle" ext="jar" status="no" details="" size="671138" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/bundles/scala-xml_2.11-1.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.5/scala-xml_2.11-1.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+			<revision name="1.0.2" status="release" pubdate="20140520081040" resolver="sbt-chain" artresolver="sbt-chain" evicted="latest-revision" evicted-reason="" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="-1">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="3137" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang.modules/scala-xml_2.11/ivy-1.0.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-xml_2.11/1.0.2/scala-xml_2.11-1.0.2.pom"/>
+				<evicted-by rev="1.0.5"/>
+				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="1.0.2" rev-constraint-default="1.0.2" rev-constraint-dynamic="1.0.2" callerrev="2.2.4"/>
+				<artifacts>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-debugger" name="scala-debugger-tool_2.11">
+			<revision name="1.1.0-M3" status="release" pubdate="20161207184341" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://scala-debugger.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="4">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="4420" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-tool_2.11/ivy-1.1.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-tool_2.11/1.1.0-M3/scala-debugger-tool_2.11-1.1.0-M3.pom"/>
+				<caller organisation="progfun1-objsets" name="progfun1-objsets_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.1.0-M3" rev-constraint-default="1.1.0-M3" rev-constraint-dynamic="1.1.0-M3" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scala-debugger-tool_2.11" type="jar" ext="jar" status="no" details="" size="566429" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-tool_2.11/jars/scala-debugger-tool_2.11-1.1.0-M3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-tool_2.11/1.1.0-M3/scala-debugger-tool_2.11-1.1.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.rogach" name="scallop_2.11">
+			<revision name="2.0.5" status="release" pubdate="20161102163528" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scallop/scallop" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="35">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2920" time="0" location="/home/vagrant/.ivy2/cache/org.rogach/scallop_2.11/ivy-2.0.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/2.0.5/scallop_2.11-2.0.5.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="2.0.5" rev-constraint-default="2.0.5" rev-constraint-dynamic="2.0.5" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="scallop_2.11" type="jar" ext="jar" status="no" details="" size="711327" time="0" location="/home/vagrant/.ivy2/cache/org.rogach/scallop_2.11/jars/scallop_2.11-2.0.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/rogach/scallop_2.11/2.0.5/scallop_2.11-2.0.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite_2.11.8">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011421" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="12">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4308" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite_2.11.8/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.11.8/COMMIT-cc9941d/ammonite_2.11.8-COMMIT-cc9941d.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="ammonite_2.11.8" type="jar" ext="jar" status="no" details="" size="163842" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite_2.11.8/jars/ammonite_2.11.8-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite_2.11.8/COMMIT-cc9941d/ammonite_2.11.8-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.github.scopt" name="scopt_2.11">
+			<revision name="3.5.0" status="release" pubdate="20160612000600" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/scopt/scopt" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="34">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2797" time="0" location="/home/vagrant/.ivy2/cache/com.github.scopt/scopt_2.11/ivy-3.5.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="3.5.0" rev-constraint-default="3.5.0" rev-constraint-dynamic="3.5.0" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="scopt_2.11" type="jar" ext="jar" status="no" details="" size="144458" time="0" location="/home/vagrant/.ivy2/cache/com.github.scopt/scopt_2.11/jars/scopt_2.11-3.5.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/github/scopt/scopt_2.11/3.5.0/scopt_2.11-3.5.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-repl_2.11.8">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011416" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="32">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3870" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-repl_2.11.8/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.11.8/COMMIT-cc9941d/ammonite-repl_2.11.8-COMMIT-cc9941d.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-repl_2.11.8" type="jar" ext="jar" status="no" details="" size="154160" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-repl_2.11.8/jars/ammonite-repl_2.11.8-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-repl_2.11.8/COMMIT-cc9941d/ammonite-repl_2.11.8-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="jline" name="jline">
+			<revision name="2.12" status="release" pubdate="20140606212408" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="33">
+				<license name="The BSD License" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="3899" time="0" location="/home/vagrant/.ivy2/cache/jline/jline/ivy-2.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="2.12" rev-constraint-default="2.12" rev-constraint-dynamic="2.12" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="jline" type="jar" ext="jar" status="no" details="" size="213854" time="0" location="/home/vagrant/.ivy2/cache/jline/jline/jars/jline-2.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/jline/jline/2.12/jline-2.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-compiler_2.11.8">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011414" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="26">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3875" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-compiler_2.11.8/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-compiler_2.11.8/COMMIT-cc9941d/ammonite-compiler_2.11.8-COMMIT-cc9941d.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-compiler_2.11.8" type="jar" ext="jar" status="no" details="" size="478555" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-compiler_2.11.8/jars/ammonite-compiler_2.11.8-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-compiler_2.11.8/COMMIT-cc9941d/ammonite-compiler_2.11.8-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="scalaparse_2.11">
+			<revision name="0.4.2" status="release" pubdate="20161022093317" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scala-parser" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="29">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3493" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/scalaparse_2.11/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.11/0.4.2/scalaparse_2.11-0.4.2.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="scalaparse_2.11" type="jar" ext="jar" status="no" details="" size="467432" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/scalaparse_2.11/jars/scalaparse_2.11-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/scalaparse_2.11/0.4.2/scalaparse_2.11-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse_2.11">
+			<revision name="0.4.2" status="release" pubdate="20161022093219" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scala-parser" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="30">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3523" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fastparse_2.11/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.11/0.4.2/fastparse_2.11-0.4.2.pom"/>
+				<caller organisation="com.lihaoyi" name="scalaparse_2.11" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="fastparse_2.11" type="jar" ext="jar" status="no" details="" size="336221" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fastparse_2.11/jars/fastparse_2.11-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse_2.11/0.4.2/fastparse_2.11-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fastparse-utils_2.11">
+			<revision name="0.4.2" status="release" pubdate="20161022093157" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/scala-parser" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="31">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3391" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fastparse-utils_2.11/ivy-0.4.2.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.11/0.4.2/fastparse-utils_2.11-0.4.2.pom"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.11" conf="compile, runtime" rev="0.4.2" rev-constraint-default="0.4.2" rev-constraint-dynamic="0.4.2" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="fastparse-utils_2.11" type="jar" ext="jar" status="no" details="" size="77868" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fastparse-utils_2.11/jars/fastparse-utils_2.11-0.4.2.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fastparse-utils_2.11/0.4.2/fastparse-utils_2.11-0.4.2.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-runtime_2.11.8">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011408" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="23">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3702" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-runtime_2.11.8/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.8/COMMIT-cc9941d/ammonite-runtime_2.11.8-COMMIT-cc9941d.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-runtime_2.11.8" type="jar" ext="jar" status="no" details="" size="330066" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-runtime_2.11.8/jars/ammonite-runtime_2.11.8-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-runtime_2.11.8/COMMIT-cc9941d/ammonite-runtime_2.11.8-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalaj" name="scalaj-http_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160402205234" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/scalaj/scalaj-http" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="25">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="3165" time="0" location="/home/vagrant/.ivy2/cache/org.scalaj/scalaj-http_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.11/2.3.0/scalaj-http_2.11-2.3.0.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-runtime_2.11.8" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="scalaj-http_2.11" type="jar" ext="jar" status="no" details="" size="156197" time="0" location="/home/vagrant/.ivy2/cache/org.scalaj/scalaj-http_2.11/jars/scalaj-http_2.11-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalaj/scalaj-http_2.11/2.3.0/scalaj-http_2.11-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.apache.ivy" name="ivy">
+			<revision name="2.4.0" status="release" pubdate="20141222164010" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://ant.apache.org/ivy/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="24">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="5566" time="0" location="/home/vagrant/.ivy2/cache/org.apache.ivy/ivy/ivy-2.4.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-runtime_2.11.8" conf="compile, runtime" rev="2.4.0" rev-constraint-default="2.4.0" rev-constraint-dynamic="2.4.0" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ivy" type="jar" ext="jar" status="no" details="" size="1282424" time="0" location="/home/vagrant/.ivy2/cache/org.apache.ivy/ivy/jars/ivy-2.4.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/apache/ivy/ivy/2.4.0/ivy-2.4.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-util_2.11.8">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011400" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="18">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3536" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-util_2.11.8/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.11.8/COMMIT-cc9941d/ammonite-util_2.11.8-COMMIT-cc9941d.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="1.1.0-M3"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-runtime_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-util_2.11.8" type="jar" ext="jar" status="no" details="" size="96860" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-util_2.11.8/jars/ammonite-util_2.11.8-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-util_2.11.8/COMMIT-cc9941d/ammonite-util_2.11.8-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="pprint_2.11">
+			<revision name="0.4.4" status="release" pubdate="20161107123200" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="22">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4273" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/pprint_2.11/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.11/0.4.4/pprint_2.11-0.4.4.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-util_2.11.8" conf="compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="pprint_2.11" type="jar" ext="jar" status="no" details="" size="314390" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/pprint_2.11/jars/pprint_2.11-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/pprint_2.11/0.4.4/pprint_2.11-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="upickle_2.11">
+			<revision name="0.4.4" status="release" pubdate="20161107123116" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="19">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3653" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/upickle_2.11/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.11/0.4.4/upickle_2.11-0.4.4.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-util_2.11.8" conf="compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="upickle_2.11" type="jar" ext="jar" status="no" details="" size="399293" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/upickle_2.11/jars/upickle_2.11-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/upickle_2.11/0.4.4/upickle_2.11-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.spire-math" name="jawn-parser_2.11">
+			<revision name="0.10.3" status="release" pubdate="20161104040300" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://github.com/non/jawn" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="21">
+				<license name="MIT" url="http://opensource.org/licenses/MIT"/>
+				<metadata-artifact status="no" details="" size="2879" time="0" location="/home/vagrant/.ivy2/cache/org.spire-math/jawn-parser_2.11/ivy-0.10.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.10.3/jawn-parser_2.11-0.10.3.pom"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.11" conf="compile, runtime" rev="0.10.3" rev-constraint-default="0.10.3" rev-constraint-dynamic="0.10.3" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="jawn-parser_2.11" type="jar" ext="jar" status="no" details="" size="84915" time="0" location="/home/vagrant/.ivy2/cache/org.spire-math/jawn-parser_2.11/jars/jawn-parser_2.11-0.10.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/spire-math/jawn-parser_2.11/0.10.3/jawn-parser_2.11-0.10.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="derive_2.11">
+			<revision name="0.4.4" status="release" pubdate="20161107123045" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/upickle" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="20">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3359" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/derive_2.11/ivy-0.4.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/derive_2.11/0.4.4/derive_2.11-0.4.4.pom"/>
+				<caller organisation="com.lihaoyi" name="pprint_2.11" conf="compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.11" conf="compile, runtime" rev="0.4.4" rev-constraint-default="0.4.4" rev-constraint-dynamic="0.4.4" callerrev="0.4.4"/>
+				<artifacts>
+					<artifact name="derive_2.11" type="jar" ext="jar" status="no" details="" size="68514" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/derive_2.11/jars/derive_2.11-0.4.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/derive_2.11/0.4.4/derive_2.11-0.4.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-ops_2.11">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="16">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3078" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-ops_2.11/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.11/COMMIT-cc9941d/ammonite-ops_2.11-COMMIT-cc9941d.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-util_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-runtime_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-ops_2.11" type="jar" ext="jar" status="no" details="" size="310544" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-ops_2.11/jars/ammonite-ops_2.11-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-ops_2.11/COMMIT-cc9941d/ammonite-ops_2.11-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="geny_2.11">
+			<revision name="0.1.1" status="release" pubdate="20161103001238" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/geny" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="17">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2756" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/geny_2.11/ivy-0.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/geny_2.11/0.1.1/geny_2.11-0.1.1.pom"/>
+				<caller organisation="com.lihaoyi" name="ammonite-ops_2.11" conf="compile, runtime" rev="0.1.1" rev-constraint-default="0.1.1" rev-constraint-dynamic="0.1.1" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="geny_2.11" type="jar" ext="jar" status="no" details="" size="58797" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/geny_2.11/jars/geny_2.11-0.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/geny_2.11/0.1.1/geny_2.11-0.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="ammonite-terminal_2.11">
+			<revision name="COMMIT-cc9941d" status="release" pubdate="20161206011402" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/Ammonite" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="13">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="3390" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-terminal_2.11/ivy-COMMIT-cc9941d.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.11/COMMIT-cc9941d/ammonite-terminal_2.11-COMMIT-cc9941d.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="1.1.0-M3"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="COMMIT-cc9941d" rev-constraint-default="COMMIT-cc9941d" rev-constraint-dynamic="COMMIT-cc9941d" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="ammonite-terminal_2.11" type="jar" ext="jar" status="no" details="" size="289551" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/ammonite-terminal_2.11/jars/ammonite-terminal_2.11-COMMIT-cc9941d.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/ammonite-terminal_2.11/COMMIT-cc9941d/ammonite-terminal_2.11-COMMIT-cc9941d.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="fansi_2.11">
+			<revision name="0.2.3" status="release" pubdate="20161102234052" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/fansi" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="15">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2905" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fansi_2.11/ivy-0.2.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.11/0.2.3/fansi_2.11-0.2.3.pom"/>
+				<caller organisation="com.lihaoyi" name="pprint_2.11" conf="compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="ammonite-terminal_2.11" conf="compile, runtime" rev="0.2.3" rev-constraint-default="0.2.3" rev-constraint-dynamic="0.2.3" callerrev="COMMIT-cc9941d"/>
+				<artifacts>
+					<artifact name="fansi_2.11" type="jar" ext="jar" status="no" details="" size="81315" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/fansi_2.11/jars/fansi_2.11-0.2.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/fansi_2.11/0.2.3/fansi_2.11-0.2.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.lihaoyi" name="sourcecode_2.11">
+			<revision name="0.1.3" status="release" pubdate="20161021173026" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/lihaoyi/sourcecode" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="14">
+				<license name="MIT license" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="2966" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/sourcecode_2.11/ivy-0.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.3/sourcecode_2.11-0.1.3.pom"/>
+				<caller organisation="com.lihaoyi" name="pprint_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="fastparse-utils_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="derive_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="ammonite-terminal_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="scalaparse_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.2"/>
+				<caller organisation="com.lihaoyi" name="fansi_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.2.3"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.11" conf="compile, runtime" rev="0.1.3" rev-constraint-default="0.1.3" rev-constraint-dynamic="0.1.3" callerrev="0.4.2"/>
+				<artifacts>
+					<artifact name="sourcecode_2.11" type="jar" ext="jar" status="no" details="" size="116579" time="0" location="/home/vagrant/.ivy2/cache/com.lihaoyi/sourcecode_2.11/jars/sourcecode_2.11-0.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/lihaoyi/sourcecode_2.11/0.1.3/sourcecode_2.11-0.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-debugger" name="scala-debugger-language_2.11">
+			<revision name="1.1.0-M3" status="release" pubdate="20161207184346" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://scala-debugger.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="8">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3418" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-language_2.11/ivy-1.1.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-language_2.11/1.1.0-M3/scala-debugger-language_2.11-1.1.0-M3.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="1.1.0-M3" rev-constraint-default="1.1.0-M3" rev-constraint-dynamic="1.1.0-M3" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="scala-debugger-language_2.11" type="jar" ext="jar" status="no" details="" size="290471" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-language_2.11/jars/scala-debugger-language_2.11-1.1.0-M3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-language_2.11/1.1.0-M3/scala-debugger-language_2.11-1.1.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.parboiled" name="parboiled_2.11">
+			<revision name="2.1.3" status="release" pubdate="20160426080739" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://parboiled.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="9">
+				<license name="Apache-2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3126" time="0" location="/home/vagrant/.ivy2/cache/org.parboiled/parboiled_2.11/ivy-2.1.3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.11/2.1.3/parboiled_2.11-2.1.3.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-language_2.11" conf="compile, runtime" rev="2.1.3" rev-constraint-default="2.1.3" rev-constraint-dynamic="2.1.3" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="parboiled_2.11" type="bundle" ext="jar" status="no" details="" size="956069" time="0" location="/home/vagrant/.ivy2/cache/org.parboiled/parboiled_2.11/bundles/parboiled_2.11-2.1.3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/parboiled/parboiled_2.11/2.1.3/parboiled_2.11-2.1.3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="com.chuusai" name="shapeless_2.11">
+			<revision name="2.3.0" status="release" pubdate="20160225140951" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/shapeless" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="10">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3226" time="0" location="/home/vagrant/.ivy2/cache/com.chuusai/shapeless_2.11/ivy-2.3.0.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0.pom"/>
+				<caller organisation="org.parboiled" name="parboiled_2.11" conf="compile, runtime" rev="2.3.0" rev-constraint-default="2.3.0" rev-constraint-dynamic="2.3.0" callerrev="2.1.3"/>
+				<artifacts>
+					<artifact name="shapeless_2.11" type="bundle" ext="jar" status="no" details="" size="3373071" time="0" location="/home/vagrant/.ivy2/cache/com.chuusai/shapeless_2.11/bundles/shapeless_2.11-2.3.0.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/com/chuusai/shapeless_2.11/2.3.0/shapeless_2.11-2.3.0.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.typelevel" name="macro-compat_2.11">
+			<revision name="1.1.1" status="release" pubdate="20160215105037" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://github.com/milessabin/macro-compat" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="11">
+				<license name="Apache 2" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="2964" time="0" location="/home/vagrant/.ivy2/cache/org.typelevel/macro-compat_2.11/ivy-1.1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="1.1.1" rev-constraint-default="1.1.1" rev-constraint-dynamic="1.1.1" callerrev="2.3.0"/>
+				<artifacts>
+					<artifact name="macro-compat_2.11" type="jar" ext="jar" status="no" details="" size="3142" time="0" location="/home/vagrant/.ivy2/cache/org.typelevel/macro-compat_2.11/jars/macro-compat_2.11-1.1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/typelevel/macro-compat_2.11/1.1.1/macro-compat_2.11-1.1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-debugger" name="scala-debugger-api_2.11">
+			<revision name="1.1.0-M3" status="release" pubdate="20161207184321" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://scala-debugger.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="5">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="3614" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-api_2.11/ivy-1.1.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-api_2.11/1.1.0-M3/scala-debugger-api_2.11-1.1.0-M3.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="1.1.0-M3" rev-constraint-default="1.1.0-M3" rev-constraint-dynamic="1.1.0-M3" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-language_2.11" conf="compile, runtime" rev="1.1.0-M3" rev-constraint-default="1.1.0-M3" rev-constraint-dynamic="1.1.0-M3" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="scala-debugger-api_2.11" type="jar" ext="jar" status="no" details="" size="3375477" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-api_2.11/jars/scala-debugger-api_2.11-1.1.0-M3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-api_2.11/1.1.0-M3/scala-debugger-api_2.11-1.1.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-log4j12">
+			<revision name="1.7.5" status="release" pubdate="20130325205252" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="36">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4561" time="0" location="/home/vagrant/.ivy2/cache/org.slf4j/slf4j-log4j12/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="slf4j-log4j12" type="jar" ext="jar" status="no" details="" size="8869" time="0" location="/home/vagrant/.ivy2/cache/org.slf4j/slf4j-log4j12/jars/slf4j-log4j12-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-log4j12/1.7.5/slf4j-log4j12-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="log4j" name="log4j">
+			<revision name="1.2.17" status="release" pubdate="20120526094339" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://logging.apache.org/log4j/1.2/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="37">
+				<license name="The Apache Software License, Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0.txt"/>
+				<metadata-artifact status="no" details="" size="3670" time="0" location="/home/vagrant/.ivy2/cache/log4j/log4j/ivy-1.2.17.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.pom"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.2.17" rev-constraint-default="1.2.17" rev-constraint-dynamic="1.2.17" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="log4j" type="bundle" ext="jar" status="no" details="" size="489884" time="0" location="/home/vagrant/.ivy2/cache/log4j/log4j/bundles/log4j-1.2.17.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/log4j/log4j/1.2.17/log4j-1.2.17.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.slf4j" name="slf4j-api">
+			<revision name="1.7.5" status="release" pubdate="20130325205215" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.slf4j.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="7">
+				<license name="MIT License" url="http://www.opensource.org/licenses/mit-license.php"/>
+				<metadata-artifact status="no" details="" size="4383" time="0" location="/home/vagrant/.ivy2/cache/org.slf4j/slf4j-api/ivy-1.7.5.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-api_2.11" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.1.0-M3"/>
+				<caller organisation="org.slf4j" name="slf4j-log4j12" conf="compile, runtime" rev="1.7.5" rev-constraint-default="1.7.5" rev-constraint-dynamic="1.7.5" callerrev="1.7.5"/>
+				<artifacts>
+					<artifact name="slf4j-api" type="jar" ext="jar" status="no" details="" size="26084" time="0" location="/home/vagrant/.ivy2/cache/org.slf4j/slf4j-api/jars/slf4j-api-1.7.5.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/slf4j/slf4j-api/1.7.5/slf4j-api-1.7.5.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-debugger" name="scala-debugger-macros_2.11">
+			<revision name="1.1.0-M3" status="release" pubdate="20161207184219" resolver="sbt-chain" artresolver="sbt-chain" homepage="https://scala-debugger.org" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="6">
+				<license name="Apache-2.0" url="https://www.apache.org/licenses/LICENSE-2.0.html"/>
+				<metadata-artifact status="no" details="" size="2839" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-macros_2.11/ivy-1.1.0-M3.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-macros_2.11/1.1.0-M3/scala-debugger-macros_2.11-1.1.0-M3.pom"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-api_2.11" conf="compile, runtime" rev="1.1.0-M3" rev-constraint-default="1.1.0-M3" rev-constraint-dynamic="1.1.0-M3" callerrev="1.1.0-M3"/>
+				<artifacts>
+					<artifact name="scala-debugger-macros_2.11" type="jar" ext="jar" status="no" details="" size="301" time="0" location="/home/vagrant/.ivy2/cache/org.scala-debugger/scala-debugger-macros_2.11/jars/scala-debugger-macros_2.11-1.1.0-M3.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-debugger/scala-debugger-macros_2.11/1.1.0-M3/scala-debugger-macros_2.11-1.1.0-M3.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11">
+			<revision name="1.0.4" status="release" pubdate="20150430140747" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="3">
+				<license name="BSD 3-clause" url="http://opensource.org/licenses/BSD-3-Clause"/>
+				<metadata-artifact status="no" details="" size="2929" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/ivy-1.0.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.pom"/>
+				<caller organisation="progfun1-objsets" name="progfun1-objsets_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="1.0.4" rev-constraint-default="1.0.4" rev-constraint-dynamic="1.0.4" callerrev="2.11.12"/>
+				<artifacts>
+					<artifact name="scala-parser-combinators_2.11" type="bundle" ext="jar" status="no" details="" size="423753" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang.modules/scala-parser-combinators_2.11/bundles/scala-parser-combinators_2.11-1.0.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/modules/scala-parser-combinators_2.11/1.0.4/scala-parser-combinators_2.11-1.0.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-reflect">
+			<revision name="2.11.12" status="release" pubdate="20171103013736" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="2">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2829" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-reflect/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.pom"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.0.5"/>
+				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.2.4"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-macros_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-language_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.11.12"/>
+				<artifacts>
+					<artifact name="scala-reflect" type="jar" ext="jar" status="no" details="" size="4623075" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-reflect/jars/scala-reflect-2.11.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-reflect/2.11.12/scala-reflect-2.11.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scalatest" name="scalatest_2.11">
+			<revision name="2.2.4" status="release" pubdate="20150129071600" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scalatest.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="1">
+				<license name="the Apache License, ASL Version 2.0" url="http://www.apache.org/licenses/LICENSE-2.0"/>
+				<metadata-artifact status="no" details="" size="4971" time="0" location="/home/vagrant/.ivy2/cache/org.scalatest/scalatest_2.11/ivy-2.2.4.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.pom"/>
+				<caller organisation="progfun1-objsets" name="progfun1-objsets_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.2.4" rev-constraint-default="2.2.4" rev-constraint-dynamic="2.2.4" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="scalatest_2.11" type="bundle" ext="jar" status="no" details="" size="7185789" time="0" location="/home/vagrant/.ivy2/cache/org.scalatest/scalatest_2.11/bundles/scalatest_2.11-2.2.4.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scalatest/scalatest_2.11/2.2.4/scalatest_2.11-2.2.4.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="junit" name="junit">
+			<revision name="4.10" status="release" pubdate="20110929191223" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://junit.org" downloaded="false" searched="false" default="false" conf="default, compile, runtime, default(compile), master" position="38">
+				<license name="Common Public License Version 1.0" url="http://www.opensource.org/licenses/cpl1.0.txt"/>
+				<metadata-artifact status="no" details="" size="2897" time="0" location="/home/vagrant/.ivy2/cache/junit/junit/ivy-4.10.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.pom"/>
+				<caller organisation="progfun1-objsets" name="progfun1-objsets_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="4.10" rev-constraint-default="4.10" rev-constraint-dynamic="4.10" callerrev="0.1-SNAPSHOT"/>
+				<artifacts>
+					<artifact name="junit" type="jar" ext="jar" status="no" details="" size="253160" time="0" location="/home/vagrant/.ivy2/cache/junit/junit/jars/junit-4.10.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/junit/junit/4.10/junit-4.10.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.hamcrest" name="hamcrest-core">
+			<revision name="1.1" status="release" pubdate="20070718191143" resolver="sbt-chain" artresolver="sbt-chain" homepage="" downloaded="false" searched="false" default="false" conf="compile, runtime(*), master(compile), runtime, compile(*), master" position="39">
+				<license name="BSD style" url="http://www.opensource.org/licenses/bsd-license.php"/>
+				<metadata-artifact status="no" details="" size="4340" time="0" location="/home/vagrant/.ivy2/cache/org.hamcrest/hamcrest-core/ivy-1.1.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.pom"/>
+				<caller organisation="junit" name="junit" conf="default, compile, runtime, master" rev="1.1" rev-constraint-default="1.1" rev-constraint-dynamic="1.1" callerrev="4.10"/>
+				<artifacts>
+					<artifact name="hamcrest-core" type="jar" ext="jar" status="no" details="" size="76643" time="0" location="/home/vagrant/.ivy2/cache/org.hamcrest/hamcrest-core/jars/hamcrest-core-1.1.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/hamcrest/hamcrest-core/1.1/hamcrest-core-1.1.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+		<module organisation="org.scala-lang" name="scala-library">
+			<revision name="2.11.12" status="release" pubdate="20171103013730" resolver="sbt-chain" artresolver="sbt-chain" homepage="http://www.scala-lang.org/" extra-info.apiURL="http://www.scala-lang.org/api/2.11.12/" downloaded="false" searched="false" default="false" conf="default, compile, runtime(*), master(compile), runtime, default(compile), compile(*), master" position="0">
+				<license name="BSD 3-Clause" url="http://www.scala-lang.org/license.html"/>
+				<metadata-artifact status="no" details="" size="2656" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-library/ivy-2.11.12.xml" searched="false" origin-is-local="false" origin-location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.pom"/>
+				<caller organisation="com.chuusai" name="shapeless_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.3.0"/>
+				<caller organisation="com.lihaoyi" name="ammonite-util_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.0.5"/>
+				<caller organisation="com.github.scopt" name="scopt_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="3.5.0"/>
+				<caller organisation="com.lihaoyi" name="ammonite-compiler_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="upickle_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="geny_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1.1"/>
+				<caller organisation="com.lihaoyi" name="fansi_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.2.3"/>
+				<caller organisation="org.parboiled" name="parboiled_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.1.3"/>
+				<caller organisation="com.lihaoyi" name="sourcecode_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1.3"/>
+				<caller organisation="org.scalatest" name="scalatest_2.11" conf="default, compile, runtime, master" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.2.4"/>
+				<caller organisation="com.lihaoyi" name="ammonite-runtime_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="scalaparse_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-xml_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.0.2"/>
+				<caller organisation="com.lihaoyi" name="ammonite-repl_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="ammonite-ops_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-tool_2.11" conf="default, compile, runtime, master" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="org.spire-math" name="jawn-parser_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.10.3"/>
+				<caller organisation="com.lihaoyi" name="derive_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="ammonite_2.11.8" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="org.scala-lang" name="scala-reflect" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.11.12"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-macros_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-api_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="org.scala-debugger" name="scala-debugger-language_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.0-M3"/>
+				<caller organisation="progfun1-objsets" name="progfun1-objsets_2.11" conf="test, compile, provided, test-internal, runtime, optional" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.1-SNAPSHOT"/>
+				<caller organisation="org.typelevel" name="macro-compat_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.1.1"/>
+				<caller organisation="org.rogach" name="scallop_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.0.5"/>
+				<caller organisation="com.lihaoyi" name="pprint_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.4"/>
+				<caller organisation="com.lihaoyi" name="fastparse-utils_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.2"/>
+				<caller organisation="org.scala-lang.modules" name="scala-parser-combinators_2.11" conf="default, compile, runtime, master" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="1.0.4"/>
+				<caller organisation="org.scalaj" name="scalaj-http_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.3.0"/>
+				<caller organisation="com.lihaoyi" name="ammonite-terminal_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="COMMIT-cc9941d"/>
+				<caller organisation="com.lihaoyi" name="fastparse_2.11" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="0.4.2"/>
+				<caller organisation="org.scala-lang" name="scala-compiler" conf="compile, runtime" rev="2.11.12" rev-constraint-default="2.11.12" rev-constraint-dynamic="2.11.12" callerrev="2.11.12"/>
+				<artifacts>
+					<artifact name="scala-library" type="jar" ext="jar" status="no" details="" size="5749423" time="0" location="/home/vagrant/.ivy2/cache/org.scala-lang/scala-library/jars/scala-library-2.11.12.jar">
+						<origin-location is-local="false" location="https://repo1.maven.org/maven2/org/scala-lang/scala-library/2.11.12/scala-library-2.11.12.jar"/>
+					</artifact>
+				</artifacts>
+			</revision>
+		</module>
+	</dependencies>
+</ivy-report>

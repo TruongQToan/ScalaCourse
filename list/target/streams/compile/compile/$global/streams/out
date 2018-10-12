@@ -1,0 +1,4 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/code/scala/list/src/main/scala/List.scala:13:26: object java.lang.IndexOutOfBoundsException is not a value[0m
+[0m[[0m[31merror[0m] [0m[0m        if (n < 0) throw IndexOutOfBoundsException()[0m
+[0m[[0m[31merror[0m] [0m[0m                         ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

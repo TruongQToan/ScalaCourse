@@ -1,0 +1,5 @@
+[0m[[0m[31merror[0m] [0m[0m/home/vagrant/code/scala/merge_sort/src/main/scala/example/Hello.scala:20:14: not enough arguments for method sort1: (x: Seq[T], offset: Int, length: Int, comp: (T, T) => Boolean)Seq[T].[0m
+[0m[[0m[31merror[0m] [0m[0mUnspecified value parameter comp.[0m
+[0m[[0m[31merror[0m] [0m[0m        sort1(xs, offset, length)[0m
+[0m[[0m[31merror[0m] [0m[0m             ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
