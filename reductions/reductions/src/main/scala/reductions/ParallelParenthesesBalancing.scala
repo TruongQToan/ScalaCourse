@@ -44,10 +44,16 @@ object ParallelParenthesesBalancing {
     var i = 0
     var counter = 0
     while (i < chars.length) {
-      if (chars[i] == '(') {
-        if 
-      }
+      if (chars(i) == ')') {
+        if (counter == 0) {
+          counter -= 1
+          i = chars.length // break
+        }
+        else if (counter > 0) counter -= 1
+      } else if (chars(i) == '(') counter += 1
+      i += 1
     }
+    counter == 0
   }
 
   /** Returns `true` iff the parentheses in the input `chars` are balanced.
@@ -65,4 +71,7 @@ object ParallelParenthesesBalancing {
     reduce(0, chars.length) == ???
   }
 
-  // For thos
+  // For those who want more:
+  // Prove that your reduction operator is associative!
+
+}
