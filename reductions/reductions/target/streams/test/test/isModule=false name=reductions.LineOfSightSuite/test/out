@@ -1,0 +1,3 @@
+[0m[[0minfo[0m] [0m[32mLineOfSightSuite:[0m[0m
+[0m[[0minfo[0m] [0m[31m- downsweep should correctly compute the output for a non-zero starting angle *** FAILED ***[0m[0m
+[0m[[0minfo[0m] [0m[31m  List(0.0, 50.0, 50.0, 50.0, 50.0) did not equal List(50.0, 50.0, 50.0, 50.0, 50.0) (LineOfSightSuite.scala:37)[0m[0m
